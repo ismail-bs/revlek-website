@@ -15,14 +15,14 @@
     "lucide-react": "^0.553.0",
     "next": "16.0.3",
     "next-seo": "^7.0.1",
-    "nodemailer": "^7.0.11",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "resend": "^6.5.2"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/nodemailer": "^7.0.4",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
