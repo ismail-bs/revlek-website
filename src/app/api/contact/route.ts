@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { Resend } from 'resend'
+import nodemailer from 'nodemailer'
 
-export const runtime = 'edge'
 export const dynamic = 'force-dynamic'
 
 export async function POST(req: NextRequest) {
@@ -12,12 +11,19 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: false, error: 'Missing fields' }, { status: 400 })
     }
 
-    const resend = new Resend(process.env.RESEND_API_KEY)
+    const host = process.env.SMTP_HOST
+    const port = parseInt(process.env.SMTP_PORT || '587', 10)
+    const secure = (process.env.SMTP_SECURE || 'false') === 'true'
+    const user = process.env.SMTP_USER || ''
+    const pass = process.env.SMTP_PASS || ''
+    const from = process.env.SMTP_FROM || user || 'no-reply@revlek.com'
+    const to = process.env.CONTACT_TO_EMAIL || user || 'info.revlek@gmail.com'
 
-    const from = process.env.RESEND_FROM_EMAIL || 'no-reply@revlek.com'
-    const to = process.env.CONTACT_TO_EMAIL || 'info.revlek@gmail.com'
+    const transporter = host && user && pass
+      ? nodemailer.createTransport({ host, port, secure, auth: { user, pass } })
+      : nodemailer.createTransport({ jsonTransport: true })
 
-    const { data, error } = await resend.emails.send({
+    const info = await transporter.sendMail({
       from,
       to,
       replyTo: email,
@@ -25,12 +31,7 @@ export async function POST(req: NextRequest) {
       text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
     })
 
-    if (error) {
-      console.error('Resend API error:', error)
-      return NextResponse.json({ ok: false, error: 'Failed to send email' }, { status: 500 })
-    }
-
-    return NextResponse.json({ ok: true, id: data?.id || null })
+    return NextResponse.json({ ok: true, id: info.messageId || null })
   } catch (err) {
     console.error('Email send error:', err)
     return NextResponse.json({ ok: false, error: 'Failed to send email' }, { status: 500 })
