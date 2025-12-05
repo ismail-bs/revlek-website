@@ -159,8 +159,9 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
+            <h3 className="text-3xl font-bold text-white mb-8">Subscribe to Newsletter</h3>
+
             <div className="bg-slate-800/90 p-8 rounded-xl shadow-lg border border-blue-500/20">
-              <h3 className="text-3xl font-bold text-white mb-8">Subscribe to Newsletter</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
