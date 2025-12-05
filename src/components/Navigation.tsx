@@ -54,19 +54,15 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <motion.div 
-            className="flex items-center"
+            className="flex items-center cursor-pointer"
             whileHover={{ scale: 1.05 }}
+            onClick={() => router.push('/')}
           >
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg">
-                <Code className="w-4 h-4 text-white" />
-              </div>
-              <span className={`text-xl font-bold ${
-                scrolled ? 'text-white' : 'text-white'
-              }`}>
-                REVELEK
-              </span>
-            </div>
+            <img
+              src="/revlek-resized.png"
+              alt="REVLEK"
+              className="h-8 md:h-10 w-auto object-contain"
+            />
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -87,10 +87,11 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <div className="flex items-center mb-6">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <Code className="w-4 h-4 text-white" />
-              </div>
-              <span className="text-xl font-semibold text-white">REVELEK</span>
+              <img
+                src="/revlek-resized.png"
+                alt="REVLEK"
+                className="h-6 md:h-8 w-auto object-contain mr-3"
+              />
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed text-sm">
               Building future's technology with innovative digital solutions, custom software, 
