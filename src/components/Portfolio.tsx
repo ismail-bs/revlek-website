@@ -134,9 +134,7 @@ export default function Portfolio() {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className={`group relative bg-slate-800/90 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-slate-700/50 hover:border-slate-600/50 ${
-                project.featured ? 'lg:col-span-2' : ''
-              }`}
+              className="group relative bg-slate-800/90 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-slate-700/50 hover:border-slate-600/50"
               variants={itemVariants}
               whileHover={{ y: -10 }}
             >
