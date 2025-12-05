@@ -12,8 +12,8 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What services does REVELEK offer?",
-    answer: "REVELEK specializes in custom software development, web applications, mobile apps, cloud solutions, AI/ML integration, and digital transformation consulting. We help businesses modernize their technology stack and build scalable digital solutions."
+    question: "What services does REVLEK offer?",
+    answer: "REVLEK specializes in custom software development, web applications, mobile apps, cloud solutions, AI/ML integration, and digital transformation consulting. We help businesses modernize their technology stack and build scalable digital solutions."
   },
   {
     question: "How long does a typical project take?",
@@ -48,7 +48,7 @@ const faqData: FAQItem[] = [
     answer: "Yes, we provide comprehensive documentation for all our solutions, including technical documentation, user guides, and API documentation. We also offer training sessions for your team."
   },
   {
-    question: "How do I get started with REVELEK?",
+    question: "How do I get started with REVLEK?",
     answer: "Getting started is easy! Simply contact us through our website, book a consultation call, or send us an email. We'll schedule a discovery call to understand your needs and provide a tailored proposal."
   }
 ]
@@ -67,15 +67,15 @@ export default function FAQ() {
   return (
     <>
       <Head>
-        <title>FAQ - REVELEK | Frequently Asked Questions</title>
-        <meta name="description" content="Find answers to common questions about REVELEK's services, development process, pricing, and more." />
-        <meta name="keywords" content="REVELEK FAQ, software development questions, AI solutions FAQ, web development, mobile apps" />
-        <meta property="og:title" content="FAQ - REVELEK | Frequently Asked Questions" />
-        <meta property="og:description" content="Find answers to common questions about REVELEK's services, development process, pricing, and more." />
+        <title>FAQ - REVLEK | Frequently Asked Questions</title>
+        <meta name="description" content="Find answers to common questions about REVLEK's services, development process, pricing, and more." />
+        <meta name="keywords" content="REVLEK FAQ, software development questions, AI solutions FAQ, web development, mobile apps" />
+        <meta property="og:title" content="FAQ - REVLEK | Frequently Asked Questions" />
+        <meta property="og:description" content="Find answers to common questions about REVLEK's services, development process, pricing, and more." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="FAQ - REVELEK | Frequently Asked Questions" />
-        <meta name="twitter:description" content="Find answers to common questions about REVELEK's services, development process, pricing, and more." />
+        <meta name="twitter:title" content="FAQ - REVLEK | Frequently Asked Questions" />
+        <meta name="twitter:description" content="Find answers to common questions about REVLEK's services, development process, pricing, and more." />
         <link rel="canonical" href="https://revlek.com/faq" />
       </Head>
       <div className="min-h-screen bg-slate-900 text-white">

@@ -1,15 +1,15 @@
 export const metadata: Metadata = {
-  title: 'REVELEK - Digital Innovation & Software Development',
+  title: 'REVLEK - Digital Innovation & Software Development',
   description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology. Trusted by 150+ companies worldwide.',
   keywords: 'software development, AI solutions, web development, mobile apps, SaaS platforms, digital transformation, custom software',
   openGraph: {
-    title: 'REVELEK - Digital Innovation & Software Development',
+    title: 'REVLEK - Digital Innovation & Software Development',
     description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'REVELEK - Digital Innovation & Software Development',
+    title: 'REVLEK - Digital Innovation & Software Development',
     description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology.',
   },
 };

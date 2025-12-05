@@ -9,15 +9,15 @@ export default function BookACall() {
   return (
     <>
       <Head>
-        <title>Book a Free Consultation Call - REVELEK Software Development</title>
-        <meta name="description" content="Schedule a free 30-minute consultation with REVELEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
+        <title>Book a Free Consultation Call - REVLEK Software Development</title>
+        <meta name="description" content="Schedule a free 30-minute consultation with REVLEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
         <meta name="keywords" content="book consultation call, software development consultation, AI consultation, free consultation, project discussion, revlek consultation" />
-        <meta property="og:title" content="Book a Free Consultation Call - REVELEK Software Development" />
-        <meta property="og:description" content="Schedule a free 30-minute consultation with REVELEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
+        <meta property="og:title" content="Book a Free Consultation Call - REVLEK Software Development" />
+        <meta property="og:description" content="Schedule a free 30-minute consultation with REVLEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Book a Free Consultation Call - REVELEK Software Development" />
-        <meta name="twitter:description" content="Schedule a free 30-minute consultation with REVELEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
+        <meta name="twitter:title" content="Book a Free Consultation Call - REVLEK Software Development" />
+        <meta name="twitter:description" content="Schedule a free 30-minute consultation with REVLEK to discuss your software development, AI solutions, and digital transformation needs. Get expert advice and project estimates." />
         <link rel="canonical" href="https://revlek.com/book-a-call" />
       </Head>
       <div className="min-h-screen bg-slate-900 text-white">
@@ -30,7 +30,7 @@ export default function BookACall() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Book a Call with REVELEK
+              Book a Call with REVLEK
             </motion.h1>
             <motion.p 
               className="text-xl text-slate-300"

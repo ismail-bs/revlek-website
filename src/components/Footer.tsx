@@ -250,7 +250,7 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              © {currentYear} REVELEK. All rights reserved.
+              © {currentYear} REVLEK. All rights reserved.
             </motion.div>
             
             <motion.div
@@ -285,7 +285,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            Built by the REVELEK Team
+            Built by the REVLEK Team
           </motion.div>
         </div>
       </div>

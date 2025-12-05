@@ -13,7 +13,7 @@ export default function TeamPage() {
       name: "Ismail Hosen",
       role: "CEO & Founder",
       image: "https://images.unsplash.com/photo-1494790108755-2616-612b5bc?w=300&h=300&fit=crop&crop=face",
-      bio: "Visionary founder leading REVELEK with a focus on innovation, client success, and world-class delivery.",
+      bio: "Visionary founder leading REVLEK with a focus on innovation, client success, and world-class delivery.",
       email: "info.revlek@gmail.com",
       linkedin: "https://www.linkedin.com/in/revlek-ltd-60761b390",
       twitter: undefined,
@@ -68,15 +68,15 @@ export default function TeamPage() {
   return (
     <>
       <Head>
-        <title>Meet the REVELEK Team - Expert Software Developers & AI Specialists</title>
-        <meta name="description" content="Meet the expert team at REVELEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
+        <title>Meet the REVLEK Team - Expert Software Developers & AI Specialists</title>
+        <meta name="description" content="Meet the expert team at REVLEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
         <meta name="keywords" content="revlek team, software development team, AI specialists, web developers, technology experts, engineering team, design team" />
-        <meta property="og:title" content="Meet the REVELEK Team - Expert Software Developers & AI Specialists" />
-        <meta property="og:description" content="Meet the expert team at REVELEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
+        <meta property="og:title" content="Meet the REVLEK Team - Expert Software Developers & AI Specialists" />
+        <meta property="og:description" content="Meet the expert team at REVLEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Meet the REVELEK Team - Expert Software Developers & AI Specialists" />
-        <meta name="twitter:description" content="Meet the expert team at REVELEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
+        <meta name="twitter:title" content="Meet the REVLEK Team - Expert Software Developers & AI Specialists" />
+        <meta name="twitter:description" content="Meet the expert team at REVLEK - software developers, AI specialists, designers, and engineers who drive innovation and deliver exceptional results for our clients." />
         <link rel="canonical" href="https://revlek.com/team" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
@@ -113,7 +113,7 @@ export default function TeamPage() {
                 Meet Our Team
               </h1>
               <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-                The talented individuals behind REVELEK’s success, bringing diverse expertise and passion to every project.
+                The talented individuals behind REVLEK’s success, bringing diverse expertise and passion to every project.
               </p>
             </motion.div>
           </motion.div>
@@ -171,10 +171,10 @@ export default function TeamPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              REVELEK Leadership Team
+              REVLEK Leadership Team
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Meet the leaders steering REVELEK’s innovation and client success.
+              Meet the leaders steering REVLEK’s innovation and client success.
             </p>
           </motion.div>
 

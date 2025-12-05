@@ -9,7 +9,7 @@ export default function TestimonialsCarousel() {
     {
       name: "Sarah Johnson",
       role: "CEO, TechStart Inc.",
-      content: "REVELEK transformed our business with their innovative software solution. The team’s expertise and dedication exceeded our expectations.",
+      content: "REVLEK transformed our business with their innovative software solution. The team’s expertise and dedication exceeded our expectations.",
       rating: 5,
       image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233B82F6;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231E40AF;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad1)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3ESJ%3C/text%3E%3C/svg%3E"
     },
@@ -30,7 +30,7 @@ export default function TestimonialsCarousel() {
     {
       name: "David Thompson",
       role: "Marketing Director, GrowthCo",
-      content: "REVELEK’s digital marketing strategy delivered exceptional results. Our online presence has never been stronger.",
+      content: "REVLEK’s digital marketing strategy delivered exceptional results. Our online presence has never been stronger.",
       rating: 5,
       image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231E40AF;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231E3A8A;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad4)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EDT%3C/text%3E%3C/svg%3E"
     },

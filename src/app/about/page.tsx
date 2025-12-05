@@ -36,7 +36,7 @@ export default function AboutPage() {
       name: "Ismail Hosen",
       role: "CEO & Founder",
       image: "https://images.unsplash.com/photo-1494790108755-2616-612b5bc?w=150&h=150&fit=crop&crop=face",
-      bio: "Visionary founder leading REVELEK with innovation and client success."
+      bio: "Visionary founder leading REVLEK with innovation and client success."
     },
     {
       name: "Mahbub Alam",
@@ -69,15 +69,15 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About REVELEK - Digital Innovation & Software Development Company</title>
-        <meta name="description" content="Learn about REVELEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
+        <title>About REVLEK - Digital Innovation & Software Development Company</title>
+        <meta name="description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <meta name="keywords" content="about revlek, software development company, AI solutions company, digital transformation, web development team, technology company, software development team" />
-        <meta property="og:title" content="About REVELEK - Digital Innovation & Software Development Company" />
-        <meta property="og:description" content="Learn about REVELEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
+        <meta property="og:title" content="About REVLEK - Digital Innovation & Software Development Company" />
+        <meta property="og:description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About REVELEK - Digital Innovation & Software Development Company" />
-        <meta name="twitter:description" content="Learn about REVELEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
+        <meta name="twitter:title" content="About REVLEK - Digital Innovation & Software Development Company" />
+        <meta name="twitter:description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <link rel="canonical" href="https://revlek.com/about" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
@@ -111,7 +111,7 @@ export default function AboutPage() {
           >
             <motion.div variants={fadeInUp}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-                About REVELEK
+                About REVLEK
               </h1>
               <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
                 We&apos;re a forward-thinking technology company dedicated to building the future of digital innovation. 
@@ -212,9 +212,9 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">REVELEK Leadership Team</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">REVLEK Leadership Team</h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              The leaders behind REVELEK’s success, bringing diverse expertise and passion to every project.
+              The leaders behind REVLEK’s success, bringing diverse expertise and passion to every project.
             </p>
           </motion.div>
 

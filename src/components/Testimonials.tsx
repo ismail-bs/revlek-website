@@ -8,7 +8,7 @@ export default function Testimonials() {
     {
       name: "Sarah Johnson",
       role: "CEO, TechStart Inc.",
-      content: "REVELEK transformed our business with their innovative software solution. The team’s expertise and dedication exceeded our expectations.",
+      content: "REVLEK transformed our business with their innovative software solution. The team’s expertise and dedication exceeded our expectations.",
       rating: 5,
       image: "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Professional%20business%20woman%20headshot%2C%20confident%20smile%2C%20modern%20corporate%20setting%2C%20high%20quality%20portrait&image_size=square"
     },
@@ -29,7 +29,7 @@ export default function Testimonials() {
     {
       name: "David Thompson",
       role: "Marketing Director, GrowthCo",
-      content: "REVELEK’s digital marketing strategy delivered exceptional results. Our online presence has never been stronger.",
+      content: "REVLEK’s digital marketing strategy delivered exceptional results. Our online presence has never been stronger.",
       rating: 5,
       image: "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Professional%20male%20marketing%20executive%20headshot%2C%20confident%20business%20portrait%2C%20modern%20corporate%20setting&image_size=square"
     }

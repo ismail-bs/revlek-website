@@ -8,12 +8,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "REVELEK - Building Future's Technology",
-  description: "REVELEK is your trusted digital partner for custom software development, AI solutions, SaaS platforms, creative design, and digital marketing. We empower businesses with modern technology.",
-  keywords: "software development, AI solutions, SaaS platforms, web development, mobile apps, digital marketing, UI/UX design, REVELEK",
-  authors: [{ name: "REVELEK" }],
-  creator: "REVELEK",
-  publisher: "REVELEK",
+  title: "REVLEK - Building Future's Technology",
+  description: "REVLEK is your trusted digital partner for custom software development, AI solutions, SaaS platforms, creative design, and digital marketing. We empower businesses with modern technology.",
+  keywords: "software development, AI solutions, SaaS platforms, web development, mobile apps, digital marketing, UI/UX design, REVLEK",
+  authors: [{ name: "REVLEK" }],
+  creator: "REVLEK",
+  publisher: "REVLEK",
   formatDetection: {
     email: false,
     address: false,
@@ -24,16 +24,16 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "REVELEK - Building Future's Technology",
+    title: "REVLEK - Building Future's Technology",
     description: "Your trusted digital partner for custom software, AI solutions, SaaS platforms, and creative design services.",
     url: 'https://revlek.com',
-    siteName: 'REVELEK',
+    siteName: 'REVLEK',
     images: [
       {
         url: 'https://revlek.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'REVELEK - Building Future\'s Technology',
+        alt: 'REVLEK - Building Future\'s Technology',
       }
     ],
     locale: 'en_US',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "REVELEK - Building Future's Technology",
+    title: "REVLEK - Building Future's Technology",
     description: "Your trusted digital partner for custom software, AI solutions, SaaS platforms, and creative design services.",
     images: ['https://revlek.com/twitter-image.jpg'],
   },

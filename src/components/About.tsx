@@ -65,7 +65,7 @@ export default function About() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-            About REVELEK
+            About REVLEK
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed px-4">
             We're a forward-thinking technology company dedicated to building the future of digital innovation. 
@@ -145,7 +145,7 @@ export default function About() {
               <blockquote className="text-base sm:text-lg italic text-slate-300">
                 "Building tomorrow's technology today, one solution at a time."
               </blockquote>
-              <cite className="block mt-4 text-blue-500 font-semibold">— REVELEK Team</cite>
+              <cite className="block mt-4 text-blue-500 font-semibold">— REVLEK Team</cite>
             </div>
           </motion.div>
         </div>
