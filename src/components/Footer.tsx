@@ -69,7 +69,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Twitter, href: "https://x.com/RevlekOfficial", label: "X" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/revlek-ltd-60761b390", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/revlek", label: "LinkedIn" },
     { icon: Instagram, href: "https://instagram.com/revlek", label: "Instagram" },
     { icon: Github, href: "https://github.com/revlek", label: "GitHub" },
     { icon: Facebook, href: "https://facebook.com/revlek", label: "Facebook" }

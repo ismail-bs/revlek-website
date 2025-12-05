@@ -15,7 +15,7 @@ export default function TeamPage() {
       image: "https://images.unsplash.com/photo-1494790108755-2616-612b5bc?w=300&h=300&fit=crop&crop=face",
       bio: "Visionary founder leading REVLEK with a focus on innovation, client success, and world-class delivery.",
       email: "info.revlek@gmail.com",
-      linkedin: "https://www.linkedin.com/in/revlek-ltd-60761b390",
+      linkedin: "https://www.linkedin.com/in/revlek",
       twitter: undefined,
       github: undefined,
       expertise: ["Leadership", "Strategy", "Delivery"]
@@ -26,7 +26,7 @@ export default function TeamPage() {
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
       bio: "Operations leader ensuring smooth execution, process excellence, and consistent client satisfaction.",
       email: "info.revlek@gmail.com",
-      linkedin: "https://www.linkedin.com/in/revlek-ltd-60761b390",
+      linkedin: "https://www.linkedin.com/in/revlek",
       twitter: undefined,
       github: undefined,
       expertise: ["Operations", "Process", "Growth"]
@@ -37,7 +37,7 @@ export default function TeamPage() {
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
       bio: "Technology leader driving architecture, engineering standards, and modern solutions across platforms.",
       email: "info.revlek@gmail.com",
-      linkedin: "https://www.linkedin.com/in/revlek-ltd-60761b390",
+      linkedin: "https://www.linkedin.com/in/revlek",
       twitter: undefined,
       github: undefined,
       expertise: ["Architecture", "Engineering", "Innovation"]
