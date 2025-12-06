@@ -89,10 +89,10 @@ export default function BookACall() {
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-blue-400" />
                     <a 
-                      href="mailto:info.revlek@gmail.com" 
+                      href="mailto:info@revlek.com" 
                       className="text-slate-300 hover:text-white transition-colors"
                     >
-                      info.revlek@gmail.com
+                      info@revlek.com
                     </a>
                   </div>
                   <div className="flex items-center space-x-3">

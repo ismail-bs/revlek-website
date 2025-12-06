@@ -128,7 +128,7 @@ export default function FAQ() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="mailto:info.revlek@gmail.com"
+                  href="mailto:info@revlek.com"
                   className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-colors"
                 >
                   Contact Us

@@ -173,7 +173,7 @@ function ContactPageContent() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">Email Support</h3>
                 <p className="text-slate-300 mb-4">Send us an email and we'll get back to you promptly.</p>
-                <div className="text-blue-400 font-semibold">info.revlek@gmail.com</div>
+                <div className="text-blue-400 font-semibold">info@revlek.com</div>
               </div>
 
               {/* Consultation Card */}
@@ -214,8 +214,8 @@ function ContactPageContent() {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Email</p>
-                      <a href="mailto:info.revlek@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">
-                        info.revlek@gmail.com
+                      <a href="mailto:info@revlek.com" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        info@revlek.com
                       </a>
                     </div>
                   </motion.div>

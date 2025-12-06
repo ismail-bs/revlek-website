@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     const user = process.env.SMTP_USER || ''
     const pass = process.env.SMTP_PASS || ''
     const from = process.env.SMTP_FROM || user || 'no-reply@revlek.com'
-    const to = process.env.CONTACT_TO_EMAIL || user || 'info.revlek@gmail.com'
+    const to = process.env.CONTACT_TO_EMAIL || user || 'info@revlek.com'
 
     const transporter = host && user && pass
       ? nodemailer.createTransport({ host, port, secure, auth: { user, pass } })

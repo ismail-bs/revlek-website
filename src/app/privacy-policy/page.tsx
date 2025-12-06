@@ -85,7 +85,7 @@ export default function PrivacyPolicy() {
                 If you have any questions about this Privacy Policy, please contact us at:
               </p>
               <div className="text-slate-300">
-                <p>Email: info.revlek@gmail.com</p>
+                <p>Email: info@revlek.com</p>
                 <p>Phone: +8801334918293</p>
                 <p>Address: 123 Tech Street, San Francisco, CA 94105</p>
               </div>

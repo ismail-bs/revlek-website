@@ -176,7 +176,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-blue-400" />
-                  <span className="text-slate-300">info.revlek@gmail.com</span>
+                  <span className="text-slate-300">info@revlek.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 text-blue-400">📧</div>

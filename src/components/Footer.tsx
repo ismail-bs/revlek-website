@@ -103,7 +103,7 @@ export default function Footer() {
                 onClick={() => router.push('/contact')}
               >
                 <Mail className="w-4 h-4 mr-3 text-slate-400" />
-                info.revlek@gmail.com
+                info@revlek.com
               </div>
               <div 
                 className="flex items-center text-slate-300 hover:text-white transition-colors duration-200 cursor-pointer text-sm"
