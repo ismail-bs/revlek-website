@@ -66,10 +66,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
-        <link rel="icon" href="/favicon.svg" sizes="180x180" type="image/svg+xml" />
-        <link rel="alternate icon" href="/favicon.ico" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
+        />
+
+        {/* SVG favicon */}
+        <link rel="icon" href="/revlek-icon.svg" type="image/svg+xml" />
+
+        {/* Optional: Apple touch icon (PNG recommended) */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#7DF9FF" />
       </head>
