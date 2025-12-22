@@ -64,7 +64,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta
           name="viewport"
@@ -80,7 +80,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#7DF9FF" />
       </head>
-      <body className={`${inter.variable} font-sans antialiased bg-slate-950 text-gray-900`}>
+      <body className={`${inter.variable} font-sans antialiased bg-slate-950 text-gray-900`} suppressHydrationWarning>
         {children}
       </body>
     </html>

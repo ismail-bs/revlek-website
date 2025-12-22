@@ -131,7 +131,7 @@ export default function Testimonials() {
           {[
             { number: "4.9/5", label: "Average Rating" },
             { number: "50+", label: "Happy Clients" },
-            { number: "98%", label: "Client Retention" },
+            { number: "80%", label: "Client Retention" },
             { number: "24/7", label: "Support Available" }
           ].map((stat, index) => (
             <div key={index} className="text-center">

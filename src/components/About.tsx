@@ -5,10 +5,10 @@ import { Users, Target, TrendingUp, Award, CheckCircle } from 'lucide-react';
 
 export default function About() {
   const stats = [
-    { number: "50+", label: "Projects Completed" },
-    { number: "25+", label: "Happy Clients" },
-    { number: "3+", label: "Years of Experience" },
-    { number: "15+", label: "Team Members" }
+    { number: "100+", label: "Projects Completed" },
+    { number: "50+", label: "Happy Clients" },
+    { number: "6+", label: "Years of Experience" },
+    { number: "5+", label: "Team Members" }
   ];
 
   const values = [

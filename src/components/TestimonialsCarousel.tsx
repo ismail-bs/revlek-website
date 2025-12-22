@@ -7,60 +7,76 @@ import { useState, useEffect } from 'react';
 export default function TestimonialsCarousel() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechStart Inc.",
-      content: "REVLEK transformed our business with their innovative software solution. The team’s expertise and dedication exceeded our expectations.",
+      name: "Greg Lyon",
+      role: "CEO, Amplyon.",
+      content: "This was my first project with Revlek and they did a great job - always recommending solutions they thought were best in the long-term.",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233B82F6;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231E40AF;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad1)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3ESJ%3C/text%3E%3C/svg%3E"
+      country: "Germany",
+      flag: "🇩🇪",
+      service: "Custom Software"
     },
     {
-      name: "Michael Chen",
-      role: "CTO, Digital Dynamics",
-      content: "Outstanding work on our AI platform. The attention to detail and technical excellence was remarkable. Highly recommend their services.",
+      name: "Dee",
+      role: "Investor | Entrepreneur | Educator, Road Smart Solutions",
+      content: "I’m absolutely thrilled with the exceptional work delivered! The backend tasks were completed flawlessly and right on schedule. The quality of the work was outstanding, and the final result exceeded all my expectations. Communication was seamless from start to finish, with prompt responses and a proactive approach to every detail. If you’re looking for top-tier service, professionalism, and someone who consistently delivers on time, look no further. Highly recommended!",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234B5563;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231F2937;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad2)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EMC%3C/text%3E%3C/svg%3E"
+      country: "Togo",
+      flag: "🇹🇬",
+      service: "Custom Software"
     },
     {
-      name: "Emily Rodriguez",
-      role: "Founder, Creative Studio",
-      content: "The mobile app they developed for us is simply amazing. User-friendly design and flawless functionality. Our customers love it!",
-      rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%236B7280;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23374151;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad3)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EER%3C/text%3E%3C/svg%3E"
+      name: "Shukhrat Shawn",
+      role: "Founder, Darstop",
+      content: "They created the back end of my web application and deployed it into server. Good work!",
+      rating: 4.8,
+      country: "USA",
+      flag: "🇺🇸",
+      service: "Backend Development"
     },
     {
-      name: "David Thompson",
-      role: "Marketing Director, GrowthCo",
-      content: "REVLEK’s digital marketing strategy delivered exceptional results. Our online presence has never been stronger.",
-      rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231E40AF;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231E3A8A;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad4)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EDT%3C/text%3E%3C/svg%3E"
+      name: "MNassary",
+      role: "Founder, ESIM Management, ",
+      content: "I had the pleasure of working with Revlek on a full-stack project, and I can confidently say they exceeded all expectations. They handled the entire backend development with great skill and also delivered a clean, testable frontend along with an impressive admin panel. What truly stood out was their mindset— they worked like a true cofounder.",
+      rating: 4.9,
+      country: "United Kingdom",
+      flag: "🇬🇧",
+      service: "Custom Software"
     },
     {
-      name: "Jennifer Liu",
-      role: "VP Engineering, FinTech Solutions",
-      content: "Their blockchain implementation was flawless. Security, scalability, and performance - they delivered on all fronts.",
+      name: "Idris",
+      role: "Financial Advisor, My Discount",
+      content: "Revlek is a very talented and intelligent software company. Everything was done on time and executed perfectly. Thanks again",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad5' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233B82F6;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231D4ED8;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad5)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EJL%3C/text%3E%3C/svg%3E"
+      country: "Qatar",
+      flag: "🇶🇦",
+      service: "Backend Development"
     },
     {
-      name: "Robert Martinez",
-      role: "Product Manager, HealthTech Inc.",
-      content: "The healthcare app they built for us is revolutionary. HIPAA compliant, user-friendly, and incredibly powerful.",
+      name: "Samiah kh",
+      role: "Product Manager, Eventique",
+      content: "Greatly helped with no hesitation. From the beginning till the end, they has provided advice and guidance! Much thanks.",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad6' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%232D3748;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231A202C;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad6)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3ERM%3C/text%3E%3C/svg%3E"
+      country: "Saudi Arabia",
+      flag: "🇸🇦",
+      service: "E-commerce Platform"
     },
     {
-      name: "Amanda Foster",
-      role: "CEO, E-commerce Plus",
-      content: "Our online sales increased by 300% after their e-commerce platform upgrade. Absolutely phenomenal results!",
+      name: "Ruby Kapoor",
+      role: "Intraday Platform Manager, American Express",
+      content: "Revlek was amazing, and very helpful. went above and beyond!",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad7' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234B5563;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%232D3748;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad7)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EAF%3C/text%3E%3C/svg%3E"
+      country: "United States",
+      flag: "🇺🇸",
+      service: "Custom Software"
     },
     {
-      name: "Kevin Zhang",
-      role: "Head of Innovation, TechCorp",
-      content: "Their IoT solutions transformed our manufacturing process. Efficiency gains beyond our wildest expectations.",
+      name: "Omar jamiai",
+      role: "Project Contributor",
+      content: "Revelek is a highly skilled and experienced software engineer who delivers quality work professionally and on time. I would definitely recommend them for future projects.",
       rating: 5,
-      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cdefs%3E%3ClinearGradient id='grad8' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231E3A8A;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231E40AF;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='150' height='150' fill='url(%23grad8)' rx='75'/%3E%3Ctext x='75' y='85' font-family='Arial' font-size='50' fill='white' text-anchor='middle'%3EKZ%3C/text%3E%3C/svg%3E"
+      country: "Morocco",
+      flag: "🇲🇦",
+      service: "Custom Software"
     }
   ];
 
@@ -92,6 +108,14 @@ export default function TestimonialsCarousel() {
     setCurrentIndex(index);
   };
 
+  const getInitials = (name: string) => {
+    const parts = name.trim().split(' ');
+    if (parts.length >= 2) {
+      return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    return name.substring(0, 2).toUpperCase();
+  };
+
   return (
     <section id="testimonials" className="py-20 md:py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
       {/* Subtle Background Elements */}
@@ -113,7 +137,7 @@ export default function TestimonialsCarousel() {
             Client Success Stories
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed px-4">
-            Trusted by industry leaders worldwide. Discover how we've helped businesses transform their digital presence.
+            Trusted by industry leaders worldwide. Discover how we&apos;ve helped businesses transform their digital presence.
           </p>
         </motion.div>
 
@@ -155,23 +179,33 @@ export default function TestimonialsCarousel() {
 
                 {/* Content */}
                 <p className="text-base md:text-lg lg:text-xl text-slate-200 mb-8 md:mb-12 leading-relaxed font-light italic">
-                  "{testimonials[currentIndex].content}"
+                  &quot;{testimonials[currentIndex].content}&quot;
                 </p>
 
                 {/* Client Info */}
                 <div className="flex items-center justify-center">
-                  <motion.img
-                    src={testimonials[currentIndex].image}
-                    alt={testimonials[currentIndex].name}
-                    className="w-14 h-14 md:w-16 md:h-16 rounded-full mr-4 md:mr-6 object-cover border border-slate-600"
+                  <motion.div
+                    className="w-14 h-14 md:w-16 md:h-16 rounded-full mr-4 md:mr-6 flex items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700 border border-slate-600 text-white font-bold text-lg md:text-xl shadow-inner select-none"
                     whileHover={{ scale: 1.05 }}
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
                     transition={{ duration: 0.3 }}
-                  />
+                  >
+                    {getInitials(testimonials[currentIndex].name)}
+                  </motion.div>
                   <div className="text-left">
                     <h4 className="text-white font-semibold text-base md:text-lg">{testimonials[currentIndex].name}</h4>
                     <p className="text-slate-400 text-sm md:text-base">{testimonials[currentIndex].role}</p>
+                    <div className="flex flex-wrap items-center gap-2 mt-1">
+                      <span className="text-slate-500 text-xs uppercase tracking-wider font-semibold flex items-center gap-1">
+                        <span className="text-lg">{testimonials[currentIndex].flag}</span>
+                        {testimonials[currentIndex].country}
+                      </span>
+                      <span className="hidden sm:inline-block w-1 h-1 bg-slate-600 rounded-full"></span>
+                      <span className="text-blue-400 text-xs font-medium bg-blue-400/10 px-2 py-0.5 rounded-full border border-blue-400/20">
+                        {testimonials[currentIndex].service}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </motion.div>
@@ -221,8 +255,8 @@ export default function TestimonialsCarousel() {
         >
           {[
             { number: "4.9/5", label: "Average Rating" },
-            { number: "150+", label: "Happy Clients" },
-            { number: "98%", label: "Client Retention" },
+            { number: "100+", label: "Happy Clients" },
+            { number: "80%", label: "Client Retention" },
             { number: "24/7", label: "Support Available" }
           ].map((stat, index) => (
             <motion.div 

@@ -172,7 +172,7 @@ function ContactPageContent() {
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">Email Support</h3>
-                <p className="text-slate-300 mb-4">Send us an email and we'll get back to you promptly.</p>
+                <p className="text-slate-300 mb-4">Send us an email and we&apos;ll get back to you promptly.</p>
                 <div className="text-blue-400 font-semibold">info@revlek.com</div>
               </div>
 
@@ -200,7 +200,7 @@ function ContactPageContent() {
                 <div>
                   <h2 className="text-3xl font-bold text-white mb-4">Contact Information</h2>
                   <p className="text-slate-300 text-lg leading-relaxed">
-                    Have a project in mind? We'd love to hear about it. Reach out to us and let's start a conversation about bringing your ideas to life.
+                    Have a project in mind? We&apos;d love to hear about it. Reach out to us and let&apos;s start a conversation about bringing your ideas to life.
                   </p>
                 </div>
 
@@ -253,17 +253,13 @@ function ContactPageContent() {
                 <div className="bg-slate-800/30 rounded-xl p-6 border border-slate-700/30">
                   <h3 className="text-xl font-semibold text-white mb-4">Business Hours</h3>
                   <div className="space-y-2 text-slate-300">
-                    <div className="flex justify-between">
-                      <span>Open now</span>
-                      <span className="text-green-400">9:00 AM - 6:00 PM</span>
-                    </div>
+                    <div className="flex justify-between"><span>Sunday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                     <div className="flex justify-between"><span>Monday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                     <div className="flex justify-between"><span>Tuesday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                     <div className="flex justify-between"><span>Wednesday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                     <div className="flex justify-between"><span>Thursday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                     <div className="flex justify-between"><span>Friday</span><span className="text-slate-500">CLOSED</span></div>
                     <div className="flex justify-between"><span>Saturday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
-                    <div className="flex justify-between"><span>Sunday</span><span className="text-blue-400">9:00 AM - 6:00 PM</span></div>
                   </div>
                 </div>
               </motion.div>
@@ -280,7 +276,7 @@ function ContactPageContent() {
 
                   {submitStatus === 'success' && (
                     <div className="mb-6 p-4 bg-green-600/20 border border-green-600/30 rounded-lg">
-                      <p className="text-green-400">Message sent successfully! We'll get back to you soon.</p>
+                      <p className="text-green-400">Message sent successfully! We&apos;ll get back to you soon.</p>
                     </div>
                   )}
 

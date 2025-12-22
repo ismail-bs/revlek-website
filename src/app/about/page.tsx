@@ -69,14 +69,14 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About REVLEK - Digital Innovation & Software Development Company</title>
+        <title>About REVLEK - Building Tomorrow's Technology Company</title>
         <meta name="description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <meta name="keywords" content="about revlek, software development company, AI solutions company, digital transformation, web development team, technology company, software development team" />
-        <meta property="og:title" content="About REVLEK - Digital Innovation & Software Development Company" />
+        <meta property="og:title" content="About REVLEK - Building Tomorrow's Technology Company" />
         <meta property="og:description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About REVLEK - Digital Innovation & Software Development Company" />
+        <meta name="twitter:title" content="About REVLEK - Building Tomorrow's Technology Company" />
         <meta name="twitter:description" content="Learn about REVLEK, a leading software development company specializing in AI solutions, web development, and digital transformation. Meet our expert team and discover our mission." />
         <link rel="canonical" href="https://revlek.com/about" />
       </Head>

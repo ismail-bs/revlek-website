@@ -8,13 +8,20 @@ import Head from 'next/head';
 export default function TeamPage() {
   const router = useRouter();
 
+  const getInitials = (name: string) => {
+    const parts = name.trim().split(' ');
+    if (parts.length >= 2) {
+      return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    return name.substring(0, 2).toUpperCase();
+  };
+
   const team = [
     {
       name: "Ismail Hosen",
       role: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108755-2616-612b5bc?w=300&h=300&fit=crop&crop=face",
       bio: "Visionary founder leading REVLEK with a focus on innovation, client success, and world-class delivery.",
-      email: "info@revlek.com",
+      email: "ismail@revlek.com",
       linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
@@ -23,9 +30,8 @@ export default function TeamPage() {
     {
       name: "Mahbub Alam",
       role: "COO & Co Founder",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
       bio: "Operations leader ensuring smooth execution, process excellence, and consistent client satisfaction.",
-      email: "info@revlek.com",
+      email: "mahbub@revlek.com",
       linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
@@ -34,9 +40,8 @@ export default function TeamPage() {
     {
       name: "Siddiqur Rahman",
       role: "CTO & Co Founder",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
       bio: "Technology leader driving architecture, engineering standards, and modern solutions across platforms.",
-      email: "info@revlek.com",
+      email: "rony@revlek.com",
       linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
@@ -45,10 +50,10 @@ export default function TeamPage() {
   ];
 
   const stats = [
-    { number: "50+", label: "Projects Completed", icon: Target },
-    { number: "25+", label: "Happy Clients", icon: Users },
-    { number: "3+", label: "Years of Experience", icon: Award },
-    { number: "15+", label: "Team Members", icon: Code }
+    { number: "100+", label: "Projects Completed", icon: Target },
+    { number: "50+", label: "Happy Clients", icon: Users },
+    { number: "6+", label: "Years of Experience", icon: Award },
+    { number: "5+", label: "Team Members", icon: Code }
   ];
 
   const fadeInUp = {
@@ -190,10 +195,8 @@ export default function TeamPage() {
               >
                 <div className="text-center space-y-4">
                   <div className="relative mx-auto">
-                    <div className="w-24 h-24 rounded-full mx-auto border-2 border-blue-600 group-hover:border-blue-500 transition-colors duration-300 bg-slate-700 flex items-center justify-center">
-                      <span className="text-white text-3xl font-bold">
-                        {member.name.charAt(0)}
-                      </span>
+                    <div className="w-24 h-24 rounded-full mx-auto bg-gradient-to-br from-blue-500 to-blue-700 border-2 border-slate-600 group-hover:border-blue-400 text-white flex items-center justify-center font-bold text-3xl shadow-lg select-none transition-all duration-300">
+                      {getInitials(member.name)}
                     </div>
                   </div>
                   

@@ -90,11 +90,11 @@ export default function Footer() {
               <img
                 src="/revlek-resized.png"
                 alt="REVLEK"
-                className="h-6 md:h-8 w-auto object-contain mr-3"
+                className="h-8 md:h-8 w-auto object-contain mr-3"
               />
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed text-sm">
-              Building future's technology with innovative digital solutions, custom software, 
+              Building future&apos;s technology with innovative digital solutions, custom software, 
               and creative design services.
             </p>
             <div className="space-y-2">

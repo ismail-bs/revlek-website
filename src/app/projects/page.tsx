@@ -27,7 +27,7 @@ export default function ProjectsPage() {
       link: "#",
       github: "#",
       featured: true,
-      year: "2024"
+      year: "2025"
     },
     {
       title: "Healthcare Management System",
@@ -38,7 +38,7 @@ export default function ProjectsPage() {
       features: ["Patient Portal", "Video Consultations", "Prescription Management", "Medical Records", "Appointment System"],
       link: "#",
       github: "#",
-      year: "2024"
+      year: "2025"
     },
     {
       title: "FinTech Mobile App",
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
       features: ["Biometric Auth", "Real-time Notifications", "Investment Portfolio", "Budget Tracking", "Secure Payments"],
       link: "#",
       github: "#",
-      year: "2023"
+      year: "2024"
     },
     {
       title: "Educational VR Platform",
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
       features: ["Virtual Classrooms", "3D Simulations", "Interactive Content", "Multi-device Support", "Progress Tracking"],
       link: "#",
       github: "#",
-      year: "2023"
+      year: "2025"
     },
     {
       title: "Real Estate Analytics Dashboard",
@@ -71,7 +71,7 @@ export default function ProjectsPage() {
       features: ["Market Analytics", "Property Valuation", "Investment Insights", "Interactive Maps", "Data Visualization"],
       link: "#",
       github: "#",
-      year: "2023"
+      year: "2025"
     },
     {
       title: "Social Media Management Tool",
@@ -82,7 +82,7 @@ export default function ProjectsPage() {
       features: ["Content Scheduling", "Analytics Dashboard", "Team Collaboration", "Multi-platform Support", "AI Content Suggestions"],
       link: "#",
       github: "#",
-      year: "2024"
+      year: "2025"
     },
     {
       title: "Supply Chain Management",
@@ -93,7 +93,7 @@ export default function ProjectsPage() {
       features: ["Real-time Tracking", "Inventory Management", "Predictive Analytics", "Supplier Integration", "Route Optimization"],
       link: "#",
       github: "#",
-      year: "2023"
+      year: "2025"
     },
     {
       title: "Fitness & Wellness App",
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
       features: ["Workout Tracking", "Nutrition Planning", "Community Features", "Progress Analytics", "AI Recommendations"],
       link: "#",
       github: "#",
-      year: "2024"
+      year: "2025"
     }
   ];
 

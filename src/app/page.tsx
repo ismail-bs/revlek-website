@@ -1,15 +1,15 @@
 export const metadata: Metadata = {
-  title: 'REVLEK - Digital Innovation & Software Development',
+  title: "REVLEK - Building Tomorrow's Technology",
   description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology. Trusted by 150+ companies worldwide.',
   keywords: 'software development, AI solutions, web development, mobile apps, SaaS platforms, digital transformation, custom software',
   openGraph: {
-    title: 'REVLEK - Digital Innovation & Software Development',
+    title: "REVLEK - Building Tomorrow's Technology",
     description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'REVLEK - Digital Innovation & Software Development',
+    title: "REVLEK - Building Tomorrow's Technology",
     description: 'Transform your business with cutting-edge software solutions, AI innovation, and modern technology.',
   },
 };
@@ -25,6 +25,7 @@ import TechStack from '@/components/TechStack';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import CTA from '@/components/CTA';
+import { s } from 'framer-motion/client';
 
 export default function Home() {
   return (
