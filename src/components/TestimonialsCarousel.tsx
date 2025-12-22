@@ -165,7 +165,7 @@ export default function TestimonialsCarousel() {
 
                 {/* Rating */}
                 <div className="flex justify-center mb-6 md:mb-8">
-                  {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
+                  {[...Array(Math.round(testimonials[currentIndex].rating))].map((_, i) => (
                     <motion.div
                       key={i}
                       initial={{ scale: 0, rotate: -180 }}
