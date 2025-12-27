@@ -71,11 +71,14 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
         />
 
-        {/* SVG favicon */}
-        <link rel="icon" href="/revlek-icon.svg" type="image/svg+xml" />
+        {/* Favicon: SVG for browser tabs */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+        {/* Favicon: PNG fallback for Google Search (must be ≥48x48) */}
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
 
         {/* Optional: Apple touch icon (PNG recommended) */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
 
         <meta name="theme-color" content="#7DF9FF" />
       </head>
