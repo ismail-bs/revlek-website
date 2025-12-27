@@ -88,7 +88,7 @@ export default function Footer() {
           >
             <div className="flex items-center mb-6">
               <img
-                src="/revlek-resized.png"
+                src="/revlek-logo.png"
                 alt="REVLEK"
                 className="h-8 md:h-8 w-auto object-contain mr-3"
               />

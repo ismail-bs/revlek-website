@@ -59,7 +59,7 @@ export default function Navigation() {
             onClick={() => router.push('/')}
           >
             <img
-              src="/revlek-resized.png"
+              src="/revlek-logo.png"
               alt="REVLEK"
               className="h-6 md:h-8 w-auto object-contain"
             />
