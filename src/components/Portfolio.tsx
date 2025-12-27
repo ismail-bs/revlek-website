@@ -241,9 +241,9 @@ export default function Portfolio() {
           viewport={{ once: true }}
         >
           <motion.button
-            className="bg-blue-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg hover:shadow-2xl hover:shadow-blue-600/30 transition-all duration-300 transform hover:scale-110 shadow-xl"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
+            className="bg-blue-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-lg font-bold text-base sm:text-lg hover:shadow-2xl hover:shadow-blue-600/30 transition-all duration-300 transform hover:scale-110 shadow-xl"
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={handleViewAllProjects}
           >
             View All Projects
