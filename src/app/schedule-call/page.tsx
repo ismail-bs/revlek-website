@@ -11,12 +11,12 @@ export default function ScheduleCallPage() {
   const [selectedTime, setSelectedTime] = useState('');
 
   const services = [
-    'Software Development Consultation',
-    'AI & Machine Learning Discussion',
-    'SaaS Platform Planning',
-    'Mobile App Strategy',
-    'UI/UX Design Review',
-    'Digital Marketing Strategy'
+    "Custom Software Development",
+    "Web Application Development",
+    "Mobile App Development",
+    "Cloud & DevOps Solutions",
+    "AI & Automation Services",
+    "Software Maintenance & Support"
   ];
 
   const timeSlots = [
