@@ -46,12 +46,12 @@ export default function Footer() {
 
   const footerLinks = {
     services: [
-      { name: "Software Development", href: "#services" },
-      { name: "AI & Machine Learning", href: "#services" },
-      { name: "SaaS Platforms", href: "#services" },
+      { name: "Custom Software Development", href: "#services" },
+      { name: "Web Application Development", href: "#services" },
       { name: "Mobile App Development", href: "#services" },
-      { name: "UI/UX Design", href: "#services" },
-      { name: "Digital Marketing", href: "#services" }
+      { name: "Cloud & DevOps Solutions", href: "#services" },
+      { name: "AI & Automation Services", href: "#services" },
+      { name: "Software Maintenance & Support", href: "#services" }
     ],
     company: [
       { name: "About Us", href: "/about" },
@@ -94,8 +94,8 @@ export default function Footer() {
               />
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed text-sm">
-              Building future&apos;s technology with innovative digital solutions, custom software, 
-              and creative design services.
+                Building the future of technology with innovative digital solutions, custom software,
+                web & mobile applications, and AI-powered automation.
             </p>
             <div className="space-y-2">
               <div 
