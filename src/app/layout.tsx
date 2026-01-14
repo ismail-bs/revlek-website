@@ -9,8 +9,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "REVLEK - Building Future's Technology",
-  description: "REVLEK is your trusted digital partner for custom software development, AI solutions, SaaS platforms, creative design, and digital marketing. We empower businesses with modern technology.",
-  keywords: "software development, AI solutions, SaaS platforms, web development, mobile apps, digital marketing, UI/UX design, REVLEK",
+  description: "REVLEK is your trusted digital partner for custom software, web & mobile applications, cloud & DevOps solutions, AI & automation, and software maintenance. We help businesses innovate and grow with modern technology.",
+  keywords: "custom software, web development, mobile apps, cloud solutions, DevOps, AI services, automation, software maintenance, REVLEK",
   authors: [{ name: "REVLEK" }],
   creator: "REVLEK",
   publisher: "REVLEK",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "REVLEK - Building Future's Technology",
-    description: "Your trusted digital partner for custom software, AI solutions, SaaS platforms, and creative design services.",
+    description: "Your trusted digital partner for custom software, web & mobile applications, cloud & DevOps solutions, AI & automation, and software maintenance.",
     url: 'https://revlek.com',
     siteName: 'REVLEK',
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "REVLEK - Building Future's Technology",
-    description: "Your trusted digital partner for custom software, AI solutions, SaaS platforms, and creative design services.",
+    description: "Your trusted digital partner for custom software, web & mobile applications, cloud & DevOps solutions, AI & automation, and software maintenance.",
     images: ['https://revlek.com/twitter-image.jpg'],
   },
   robots: {

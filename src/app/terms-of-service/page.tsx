@@ -20,7 +20,7 @@ export default function TermsOfServicePage() {
     {
       title: "Services Description",
       content: [
-        "Revlek provides software development, AI solutions, SaaS platforms, mobile app development, UI/UX design, and digital marketing services.",
+        "REVLEK provides custom software development, web and mobile applications, cloud & DevOps solutions, AI & automation services, and software maintenance & Support.",
         "The specific scope of services will be defined in individual project agreements or statements of work."
       ]
     },
