@@ -33,7 +33,7 @@ export default function ProjectsPage() {
       title: "Healthcare Management System",
       category: "Healthcare • Web App",
       description: "Comprehensive healthcare management solution with patient records, appointment scheduling, and telemedicine capabilities. HIPAA compliant with end-to-end encryption.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0c3c56?w=800&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop",
       technologies: ["Vue.js", "Django", "PostgreSQL", "Docker", "Kubernetes", "AWS"],
       features: ["Patient Portal", "Video Consultations", "Prescription Management", "Medical Records", "Appointment System"],
       link: "#",
