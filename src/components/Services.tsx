@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Brain, Rocket, Palette, Smartphone, Megaphone, Globe, TrendingUp } from 'lucide-react';
+import { Code, Brain, Rocket, Smartphone, Cloud, Wrench } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import CTA from './CTA';
 
@@ -11,41 +11,70 @@ export default function Services() {
     {
       icon: Code,
       title: "Custom Software Development",
-      description: "Tailored software solutions built with cutting-edge technologies to meet your unique business requirements and drive growth.",
-      features: ["Web Applications", "Enterprise Software", "API Development", "System Integration"]
-    },
-    {
-      icon: Brain,
-      title: "AI & Machine Learning",
-      description: "Intelligent solutions powered by artificial intelligence to automate processes and provide data-driven insights.",
-      features: ["AI Chatbots", "Predictive Analytics", "Computer Vision", "Natural Language Processing"]
-    },
-    {
-      icon: Rocket,
-      title: "SaaS Platforms",
-      description: "Scalable Software-as-a-Service platforms designed for modern businesses with subscription-based models.",
-      features: ["Multi-tenant Architecture", "Cloud Deployment", "Subscription Management", "Analytics Dashboard"]
-    },
-    {
-      icon: Palette,
-      title: "Creative Design",
-      description: "Stunning visual designs that capture your brand essence and engage your target audience effectively.",
-      features: ["UI/UX Design", "Brand Identity", "Motion Graphics", "Print Design"]
+      description: "Tailored software solutions to meet your unique business needs.",
+      features: [
+        "Desktop Applications",
+        "Enterprise Solutions",
+        "API Development",
+        "System Integration"
+      ]
     },
     {
       icon: Smartphone,
       title: "Mobile App Development",
-      description: "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",
-      features: ["iOS & Android", "React Native", "Flutter Development", "App Store Optimization"]
+      description: "Seamless native and cross-platform apps for iOS and Android.",
+      features: [
+        "iOS & Android Apps",
+        "React Native & Flutter",
+        "Intuitive UI/UX",
+        "App Store Ready"
+      ]
     },
     {
-      icon: Megaphone,
-      title: "Digital Marketing",
-      description: "Comprehensive digital marketing strategies to increase your online presence and drive qualified leads.",
-      features: ["SEO Optimization", "Social Media Marketing", "Content Strategy", "PPC Campaigns"]
+      icon: Rocket,
+      title: "Web Application Development",
+      description: "Robust and scalable web applications to enhance engagement.",
+      features: [
+        "Responsive Web Apps",
+        "Single Page & PWA",
+        "Secure Backends",
+        "Optimized Performance"
+      ]
+    },
+    {
+      icon: Cloud,
+      title: "Cloud & DevOps Solutions",
+      description: "Scalable cloud infrastructure and efficient DevOps practices.",
+      features: [
+        "Cloud Migration",
+        "CI/CD Pipelines",
+        "Infrastructure Automation",
+        "Monitoring & Optimization"
+      ]
+    },
+    {
+      icon: Brain,
+      title: "AI & Automation Services",
+      description: "Intelligent solutions to automate processes and provide insights.",
+      features: [
+        "AI Chatbots",
+        "Predictive Analytics",
+        "Process Automation",
+        "NLP & Computer Vision"
+      ]
+    },
+    {
+      icon: Wrench,
+      title: "Software Maintenance & Support",
+      description: "Keep your software secure, updated, and running smoothly.",
+      features: [
+        "Bug Fixes & Updates",
+        "QA Testing",
+        "Performance Tuning",
+        "Security Patches",
+      ]
     }
   ];
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
