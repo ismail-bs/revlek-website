@@ -16,34 +16,40 @@ export default function TeamPage() {
     return name.substring(0, 2).toUpperCase();
   };
 
-  const team = [
+  const leadershipTeam = [
     {
       name: "Ismail Hosen",
-      role: "Senior Software Engineer",
+      role: "CEO & Founder",
+      bio: "Visionary founder leading REVLEK with a focus on innovation, client success, and world-class delivery.",
       email: "ismail@revlek.com",
       linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
-      expertise: ["System Architecture", "Technical Leadership", "Scalable Backend Systems"]
+      expertise: ["Leadership", "Strategy", "Delivery"]
     },
     {
       name: "Mahbub Alam",
-      role: "UI / UX Designer",
+      role: "COO & Co Founder",
+      bio: "Operations leader ensuring smooth execution, process excellence, and consistent client satisfaction.",
       email: "taseenm438@gmail.com",
-      linkedin: "https://www.linkedin.com/in/mahbubalamtaseen/",
+      linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
-      expertise: ["UI/UX Design", "Product Design", "User Research"]
+      expertise: ["Operations", "Process", "Growth"]
     },
     {
       name: "Siddiqur Rahman",
-      role: "Software Engineer",
+      role: "CTO & Co Founder",
+      bio: "Technology leader driving architecture, engineering standards, and modern solutions across platforms.",
       email: "siddiqur@revlek.com",
       linkedin: "https://www.linkedin.com/company/revlek",
       twitter: undefined,
       github: undefined,
-      expertise: ["Java", "Spring Boot", "Backend Development"]
-    },
+      expertise: ["Architecture", "Engineering", "Innovation"]
+    }
+  ];
+
+  const team = [
     {
       name: "Md Koushik Ahmed Shuvo",
       role: "Associate Software Engineer",
@@ -165,9 +171,119 @@ export default function TeamPage() {
           </div>
         </section>
 
-        {/* Team Grid */}
-        <section className="py-20 md:py-32">
+        {/* Leadership Team Section */}
+        <section className="pt-20 md:pt-32 pb-10 md:pb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Leadership Team</h2>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {leadershipTeam.map((member, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="text-center space-y-4 p-6 bg-slate-800/30 rounded-xl border border-slate-700/30 hover:bg-slate-800/50 transition-all duration-300"
+                >
+                  <div className="w-20 h-20 rounded-full mx-auto border-2 border-blue-600 bg-slate-700 flex items-center justify-center">
+                    <span className="text-white text-2xl font-bold">
+                      {member.name.charAt(0)}
+                    </span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-white">{member.name}</h3>
+                    <p className="text-blue-400 font-medium mb-3">{member.role}</p>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">{member.bio}</p>
+                  </div>
+
+                  {/* Expertise */}
+                  <div className="flex flex-wrap gap-2 justify-center mb-4">
+                    {member.expertise.map((skill, skillIndex) => (
+                      <span
+                        key={skillIndex}
+                        className="px-2 py-1 bg-blue-600/20 text-blue-300 text-xs rounded-full border border-blue-600/30"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Social Links */}
+                  <div className="flex justify-center space-x-3">
+                    {member.email && (
+                      <motion.a
+                        href={`mailto:${member.email}`}
+                        className="w-8 h-8 bg-slate-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        <Mail className="w-4 h-4 text-white" />
+                      </motion.a>
+                    )}
+                    {member.linkedin && (
+                      <motion.a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 bg-slate-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        <Linkedin className="w-4 h-4 text-white" />
+                      </motion.a>
+                    )}
+                    {member.twitter && (
+                      <motion.a
+                        href={member.twitter}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 bg-slate-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        <Twitter className="w-4 h-4 text-white" />
+                      </motion.a>
+                    )}
+                    {member.github && (
+                      <motion.a
+                        href={member.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 bg-slate-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        <Github className="w-4 h-4 text-white" />
+                      </motion.a>
+                    )}
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Team Grid */}
+        <section className="pt-10 md:pt-12 pb-20 md:pb-32">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Core Team</h2>
+            </motion.div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {team.map((member, index) => (
