@@ -37,15 +37,16 @@ export default function Navigation() {
     { name: 'About', href: '#about' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
+    { name: 'Team', href: '/team' },
+    { name: 'Careers', href: '/careers' },
   ];
 
   return (
     <motion.nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 pt-[env(safe-area-inset-top,0px)] ${
-        scrolled 
-          ? 'bg-slate-900/95 backdrop-blur-md shadow-2xl shadow-blue-500/10' 
-          : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 pt-[env(safe-area-inset-top,0px)] ${scrolled
+        ? 'bg-slate-900/95 backdrop-blur-md shadow-2xl shadow-blue-500/10'
+        : 'bg-transparent'
+        }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
@@ -53,7 +54,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <motion.div 
+          <motion.div
             className="flex items-center cursor-pointer"
             whileHover={{ scale: 1.05 }}
             onClick={() => router.push('/')}
@@ -71,9 +72,8 @@ export default function Navigation() {
               <motion.a
                 key={item.name}
                 href={item.href}
-                className={`font-medium transition-all duration-200 ${
-                  scrolled ? 'text-blue-200 hover:text-white hover:scale-105' : 'text-white/80 hover:text-white hover:scale-105'
-                }`}
+                className={`text-xl font-medium transition-all duration-200 ${scrolled ? 'text-blue-200 hover:text-white hover:scale-105' : 'text-white/80 hover:text-white hover:scale-105'
+                  }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -81,7 +81,7 @@ export default function Navigation() {
               </motion.a>
             ))}
             <motion.button
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-200"
+              className="text-xl bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-200"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => router.push('/contact')}
@@ -94,9 +94,8 @@ export default function Navigation() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-md transition-colors duration-200 ${
-                scrolled ? 'text-blue-200 hover:text-white' : 'text-white hover:text-blue-200'
-              }`}
+              className={`p-2 rounded-md transition-colors duration-200 ${scrolled ? 'text-blue-200 hover:text-white' : 'text-white hover:text-blue-200'
+                }`}
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -116,7 +115,7 @@ export default function Navigation() {
             <motion.a
               key={item.name}
               href={item.href}
-              className="block px-3 py-2 text-blue-200 hover:text-white font-medium transition-colors duration-200"
+              className="block px-3 py-2 text-xl text-blue-200 hover:text-white font-medium transition-colors duration-200"
               whileHover={{ x: 5 }}
               onClick={() => setIsOpen(false)}
             >
@@ -124,7 +123,7 @@ export default function Navigation() {
             </motion.a>
           ))}
           <motion.button
-            className="w-full text-left bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-200 mt-4"
+            className="w-full text-left text-xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-200 mt-4"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => router.push('/contact')}
